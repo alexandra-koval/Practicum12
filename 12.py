@@ -7,6 +7,3 @@ def search(a, x):
     if a[0] == x:
         return 1
     return search(a[1:], x)
-
-
-print(search([1, 2, 3, 4, 5], 3))
