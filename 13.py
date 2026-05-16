@@ -8,6 +8,3 @@ def odd_list(a, n):
         return [a[0]] + odd_list(a[1:], n - 1)
     else:
         return odd_list(a[1:], n - 1)
-
-
-print(odd_list([1, 2, 3, 4, 5, 6], 6))
