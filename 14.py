@@ -8,6 +8,3 @@ def numbers(x):
     else:
         print(x % 10)
         numbers(x // 10)
-
-
-numbers(12345)
